@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS devices (
+    id SERIAL PRIMARY KEY,
+    name TEXT NOT NULL,
+    status BOOLEAN DEFAULT FALSE
+);
+
